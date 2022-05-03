@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">,
+    <link rel="stylesheet" href="style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="auth">
+        <h1 class="auth-title">Регистрация</h1>
+        <form action="/" method="post">
+            <div class="form-group">
+                <input type="text" class="input" value="myNameIsSlimShady" placeholder="Ваше полное имя"
+                name="name">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="input" placeholder="Ваш e-mail"
+                name="email">
+            </div>
+            <div class="form-group">
+                <input type="tel" class="input" placeholder="Ваш номер телефона"
+                name="tel">
+            </div>
+            <div class="form-group">
+                <input type="password" class="input" placeholder="Придумайте пароль"
+                name="password">
+            </div>
+            <div class="form-group">
+                <input type="password" class="input" placeholder="Подтвердите пароль"
+                name="password_confirm">
+            </div>
+            <div class="form-group">
+                <select class="select" name="city">
+                    <option value="sankt-petersburg">Санкт-Петербург</option>
+                    <option value="blues de moscou">Москва</option>
+                    <option value="nino">Горький</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" class="checkbox" id="rules"
+                name="rules">
+                <label for="rules">На всё согласен</label>
+            </div>
+            <button class="btn" type="submit" action="/">Красавчик!</button>
+        </form>
+    </div>
+</body>
+</html>

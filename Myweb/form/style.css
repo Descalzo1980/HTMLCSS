@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: Arial serif;
+    font-size: 15px;
+    color:#121212;
+    line-height: 1.5;
+    background-color:#4f1cdb;
+}
+
+/* auth */
+.auth{
+    width: 260px;
+    background-color:#fff;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.auth-title{
+    font-size: 20px;
+    color:#e48a8a;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+/* Input */
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.input{
+   display: block; 
+   width: 238px;
+   padding: 8px 10px;
+   border: 1px solid #ccc;
+   font-family: inherit;
+   font-size: 15px;
+   background-color:#fff;
+}
+.input:focus{
+    outline: 0;
+    border-color: #11d9e0;
+}
+
+/* Select */
+
+.select{
+    display: block; 
+    width: 260px;
+    height: 35px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 15px;
+    background-color:#fff;
+}
+.select:focus{
+    outline: 0;
+    border-color: #11d9e0;
+}
+
+/* Btn */
+
+.btn{
+    display: block;
+    width: 260px;
+    border:0;
+    background-color:#f37f7f;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 15px; 
+    border-radius: 2px;
+    color:#fff;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:hover,
+.btn:focus{
+    outline: 0;
+    background-color:#1f8829;
+    cursor:pointer;
+}
+
+.btn:active{
+    background-color:#083f0e;
+}
+
