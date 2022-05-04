@@ -300,7 +300,33 @@ ol {
     background-color: #eee;
     padding: 20px;
     display: flex;
+    flex-direction:row;
+    align-items: center;
     justify-content: space-between;
+    /* height: 300px; */
+    /*justify-content: space-around; 1/2 пространства между элементами*/
+}
+
+/* .header-item{
+    width: 33.3333%;
+} */
+
+.header-item{
+    flex-basis: auto;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.header-logo{
+    order:2;
+}
+
+.header-tel{
+    order: 1;
+}
+
+.header-lang{
+    order: 3;
 }
 
 .content{
